@@ -1,5 +1,5 @@
 //var output = computeAverageLengthOfWords('code', 'programs');
-
+/*
 //Escriba una función 'computeAverageLengthOfWords' que recibe dos strings y devuelve el promedio de la longitud de ambos strings.
 function computeAverageLengthOfWords(word1, word2) {
   let x = word1.length;
@@ -55,4 +55,37 @@ function areValidCredentials(name, password) {
 }
 var output = areValidCredentials('Ritu', 'mylongpassword');
 console.log(output); // --> true
+
+
+
+//calculateBillTotal
+var output = calculateBillTotal(20);
+console.log(output); // --> 24.9
+function calculateBillTotal(preTaxAndTipAmount) {
+
+  var salesTax = preTaxAndTipAmount * 0.095;
+  var tip = preTaxAndTipAmount * 0.15;
+
+  var total = preTaxAndTipAmount + salesTax + tip;
+  return total;
+
+}
+
+filterOddElements = (arr) => {
+
+  var newNumbers = [];
+
+  for (let num = 0; num < arr.length; num++) {
+    if (arr[num] % 2 !== 0) {
+      newNumbers.push(arr[num]);
+    }
+  }
+  return newNumbers;
+}
+
+let output = filterOddElements([1, 2, 3, 4, 5]);
+console.log(output);
+
+*/
+
 
